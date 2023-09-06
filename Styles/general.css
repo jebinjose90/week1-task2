@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Fontspring-regular';
+    src: url('swiggy/Styles/fonts/Fontspring-DEMO-proximanovaexcn-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+}
+
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: 5% 50% 45%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.item1{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+.banner{
+    height: auto;
+    max-width: 100%;
+}
+
+ .links{
+    float: right;
+    height: 17px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+    color: black;
+ }
+
+ .signup{
+    background-color: black;
+    color: white;
+    margin-left: -1px;
+    margin-right: 50px;
+ }
+
+ h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+ }
+
+ h2{
+    color: gray;
+    margin-top: 5px;
+ }
+
+ .locationinput{
+    margin: 0px;
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px !important;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: #fc8019;
+    border-style: solid;
+    border-width: 1px;
+    
+ }
+
+ .location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 292px;
+    left: 492px;
+    padding: 5px;
+ }
+
+ button:hover{
+    background-color: lightgrey;
+ }
+
+ .findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 48px;
+    margin: 0px;
+    position: absolute;
+    left: 601px;
+    top: 284px;
+ }
+
+ .cities{
+    font-size: 16px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+ }
+
+ .list{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+ }
+
+ .list:nth-child(even){
+    color: lightgray;
+ }
+
+.info-container{
+    margin-top: -4px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    width: 25%;
+    height: 200px;
+}
+
+.text-head{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.text-detail{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.appview-container{
+    /* margin-top: -50px; */
+    height: 555px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.apptext-container{
+    width: 45%;
+}
+
+.app-heading,
+.app-text,
+.google-play-icon{
+    margin-left: 110px;
+
+}
+
+.app-heading,
+.app-text{
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-heading{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-text{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.google-play-icon,
+.app-store-icon{
+    height: 60px;
+}
+
+.app-store-icon{
+    margin-left: 10px;
+    }
+
+.phoneapp-image-container{
+    width: 55%;
+}
+
+.android-app,
+.ios-app{
+    height: 480px;
+}
+
+.android-app{
+    margin-bottom: 9%;
+}
+
+.ios-app{
+    margin-left: -40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+  }
+
+.footer-aboutus-contact{
+    margin-top: -5px;
+    background-color: #000;
+    width: 100%;
+    color: white;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-aboutus-contact div{
+    margin-top: 40px;
+}
+
+hr {
+    margin: 0 auto;
+  }
+  .hr-container {
+    background-color: black;
+    height: 1px;
+  }
+
+  li {
+    font-size: 15px;
+    color: rgb(216, 216, 216);
+    transition: transform 0.15s; /* Apply a smooth transition effect to the transform property */
+  }
+
+  li:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+
+  .delivery-to-container,
+  .places-to-eat-container,
+  .cuisines-near-me-container,
+  .explore-restaurants-container,
+  .swiggy-container{
+    background-color: #000;
+    width: 100%;
+    color: white;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.app-store-icon{
+    width: 200px;
+    height: auto;
+}
+
+.company-component{
+    margin-left: 55px;
+}
+
+.company-component p{
+    margin-left: 30px;
+    color: #a9abb2;
+}
+
+.contact-component p,
+.legal-component p{
+    margin-left: 30px;
+    color: #a9abb2;
+}
+
+.appsstore-icons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 80px;
+}
+
+.app-store-icon{
+    transition: transform 0.15s;
+}
+
+.app-store-icon:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+
+.deliverto1 p,
+.places-to-eat1 p,
+.cuisines-near-me1 p,
+.explore-restaurants1 p{
+    margin-left: 30px;
+    margin-bottom: -20px;
+    color: #a9abb2;
+}
+
+.deliverto1,
+.places-to-eat1,
+.cuisines-near-me1,
+.explore-restaurants1{
+    margin-left: 55px;
+}
+
+.deliverto1,
+.places-to-eat1,
+.cuisines-near-me1,
+.explore-restaurants1{
+    margin-top: 50px;
+}
+
+.deliverto2,
+.deliverto3,
+.deliverto4,
+.places-to-eat2,
+.places-to-eat3,
+.places-to-eat4,
+.cuisines-near-me2,
+.cuisines-near-me3,
+.cuisines-near-me4,
+.explore-restaurants2{
+    margin-top: 61px;
+}
+
+.cuisines-near-me4{
+    margin-right: 70px;
+}
+
+.explore-restaurants2{
+    margin-right: 60px;
+}
+
+.social-media-colom-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-swiggy{
+    width: auto;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.f-p-i-xicons{
+    width: 25px;
+    height: 25px;
+}
+
+.social-media-colom-view{
+    width: 200px;
+    height: auto;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.social-media-container{
+    
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.swiggy-copyright{
+    margin-top: 50px;
+}
+
+
